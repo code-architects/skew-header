@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #123;
+    font-family: Arial, Helvetica, sans-serif;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+.title {
+    width: 600px;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.description {
+    text-align: justify;
+    max-width: 600px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
